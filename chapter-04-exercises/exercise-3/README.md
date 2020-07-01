@@ -8,3 +8,11 @@ In your `README.md` document, provide some information about a terminal command 
 - A _list_ of information about the command (i.e., things that it does, or how it can be used).
 
 Note that you can preview this Markdown in Atom to make sure it works correctly.
+
+## cd
+```Bash
+cd Escritorio/C/programa
+```
+
+- cambia el cwd al path indicado
+- es un comando interno del shell
