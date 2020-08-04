@@ -26,7 +26,7 @@ print(most_popular_in_year(1994))
 # that name. 
 # Hint: get the popularity percentage, and take that percentage out of 1 million.
 number_in_million <- function(name, year){
-  1000000 * names[names$name == name & names$year == year, "prop"]
+  round(1000000 * names[names$name == name & names$year == year, "prop"], 1)
 }
 
 # How many babies out of 1 million had the name 'Laura' in 1995?
