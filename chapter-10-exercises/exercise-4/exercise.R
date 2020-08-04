@@ -33,6 +33,8 @@ print(paste("$", lowestAmount, sep = ""))
 
 # Which organization received the largest grant?
 print(grants[grants$total_amount == gratestAmount, "organization"])
+#MANERA LIBRO
+organization[grants$total_amount == gratestAmount]
 
 # Which organization received the smallest grant?
 print(grants[grants$total_amount == lowestAmount, "organization"])

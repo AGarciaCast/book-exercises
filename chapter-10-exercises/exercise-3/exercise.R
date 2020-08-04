@@ -37,6 +37,8 @@ print(USPersonalExpenditureDF["Food and Tobacco", "X1960"])
 # What was the highest expenditure category in 1960?
 highestExpenditure1960 <- max(USPersonalExpenditureDF$X1960)
 print(USPersonalExpenditureDF[USPersonalExpenditureDF$X1960 == highestExpenditure1960,"category"])
+#Manera libro
+USPersonalExpenditureDF$category[USPersonalExpenditureDF$X1960 == max(USPersonalExpenditureDF$X1940)]
 
 # Define a function `lowest_category` that takes in a year as a parameter, and
 # returns the lowest spending category of that year
